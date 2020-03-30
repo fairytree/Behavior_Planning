@@ -2,8 +2,8 @@
 
 In this exercise we need to implement a behavior planner and cost functions for highway driving. The planner will use prediction data to set the state of the ego vehicle to one of 5 values and generate a corresponding vehicle trajectory:
 
-"KL" - Keep Lane
-"LCL" / "LCR"- Lane Change Left / Lane Change Right
+"KL" - Keep Lane;
+"LCL" / "LCR"- Lane Change Left / Lane Change Right;
 "PLCL" / "PLCR" - Prepare Lane Change Left / Prepare Lane Change Right
 
 The objective of this exercise is to navigate through traffic to the goal in as little time as possible. Note that the goal lane and s value, as well as the traffic speeds for each lane, are set in main.cpp below. Since the goal is in the slowest lane, in order to get the lowest time, we'll want to choose cost functions and weights to drive in faster lanes when appropriate. 
